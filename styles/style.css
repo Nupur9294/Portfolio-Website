@@ -1,0 +1,25 @@
+body {
+  color: #121212;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  /* font-weight: 500; */
+  line-height: 1.1;
+  background-color: #c1fbff;
+}
+a {
+  color: #121212;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(6, 0, 59);
+  /* font-size: 32px; */
+}
+.button {
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  background-color: #03919b;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+}
