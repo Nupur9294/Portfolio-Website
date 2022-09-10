@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color: rgb(187, 187, 187);
+  padding: 16px;
+}
+.hero .col-left {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+
+.hero .col-right {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+}

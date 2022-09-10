@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.com/libraries/normalize" />
     <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet" />
@@ -14,189 +15,207 @@
 
   <body>
     <header>
-      <img src="img/NS.svg" alt="Nupur Sharma" style="width: 50px" />
-      <nav>
-        <ul>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="index.html#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href="/">
+          <img src="img/NS.svg" alt="Nupur Sharma" style="width: 50px" />
+        </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="index.html#work">Work</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <div id="hero" class="hero">
-        <h1>Hi! I am Nupur</h1>
-        <p>I am Nupur Sharma, I was working with KPO and turned into a UI designer with the interest of designing.</p>
-      </div>
-      <div id="work">
-        <h2>
-          <!-- Full width row -->
-          Work
-        </h2>
-
-        <div class="parent">
-          <div class="column1">
-            <h3>Coin Bucket</h3>
+        <div class="container">
+          <div class="col-left">
+            <h1>Hi! I am Nupur</h1>
             <p>
-              Coin Bucket is designed to develop savings habits and help achieve their goal by creating multiple
-              buckets. The app is designed to encourage users to save regularly. It also helps people with less
-              financial knowledge.
+              I am Nupur Sharma, I was working with KPO and turned into a UI designer with the interest of designing.
             </p>
           </div>
-          <div class="column2">
-            <picture>
-              <source srcset="img/1-section-money-saving.jpeg" media="(max-width:767px)" />
-              <img src="img/1-section-money-saving.jpeg" alt="Money Savings App" width="100%" />
-            </picture>
-            <a class="button" href="/projects/money-savings.html"> read more </a>
+          <div class="col-right">
+            <img src="img/profile.png" alt="Nupur Sharma" style="width: 200px" />
           </div>
         </div>
+      </div>
 
-        <div class="parent">
-          <div class="column1">
-            <h3>Cook Palate</h3>
-            <p>
-              Cook Palate is a responsive web application that allows users to save their favorite recipes. And follow
-              the simple step-by-step cooking instructions. Users can also select ingredients and add them to their
-              shopping list as needed.
-            </p>
+      <div id="work">
+        <div class="container">
+          <h2>
+            <!-- Full width row -->
+            Work
+          </h2>
+
+          <div class="parent">
+            <div class="column1">
+              <h3>Coin Bucket</h3>
+              <p>
+                Coin Bucket is designed to develop savings habits and help achieve their goal by creating multiple
+                buckets. The app is designed to encourage users to save regularly. It also helps people with less
+                financial knowledge.
+              </p>
+            </div>
+            <div class="column2">
+              <picture>
+                <source srcset="img/1-section-money-saving.jpeg" media="(max-width:767px)" />
+                <img src="img/1-section-money-saving.jpeg" alt="Money Savings App" width="100%" />
+              </picture>
+              <a class="button" href="/projects/money-savings.html"> read more </a>
+            </div>
           </div>
-          <div class="column2">
-            <picture>
-              <source srcset="img/1-section-cooking.jpeg" media="(max-width:767px)" />
-              <img src="img/1-section-cooking.jpeg" alt="Cooking App" width="100%" />
-            </picture>
+
+          <div class="parent">
+            <div class="column1">
+              <h3>Cook Palate</h3>
+              <p>
+                Cook Palate is a responsive web application that allows users to save their favorite recipes. And follow
+                the simple step-by-step cooking instructions. Users can also select ingredients and add them to their
+                shopping list as needed.
+              </p>
+            </div>
+            <div class="column2">
+              <picture>
+                <source srcset="img/1-section-cooking.jpeg" media="(max-width:767px)" />
+                <img src="img/1-section-cooking.jpeg" alt="Cooking App" width="100%" />
+              </picture>
+            </div>
           </div>
         </div>
       </div>
     </main>
     <footer id="contact">
-      <h3>Contact</h3>
-      <p>
-        You can contact me through email
-        <a class="button" href="mailto:nupur9294@gmail.com"> Email me</a>
-      </p>
-      <div>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/nupursharma9294/" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" height="72" viewBox="0 0 72 72" width="20">
-                <g fill="none" fill-rule="evenodd">
-                  <path
-                    d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z"
-                    fill="#007EBB"
-                  />
-                  <path
-                    d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z"
-                    fill="#FFF"
-                  />
-                </g>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.behance.net/nupursharma9294" target="_blank">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                version="1.1"
-                width="20"
-                height="20"
-                viewBox="0 0 256 256"
-                xml:space="preserve"
-              >
-                <defs></defs>
-                <g
-                  style="
-                    stroke: none;
-                    stroke-width: 0;
-                    stroke-dasharray: none;
-                    stroke-linecap: butt;
-                    stroke-linejoin: miter;
-                    stroke-miterlimit: 10;
-                    fill: none;
-                    fill-rule: nonzero;
-                    opacity: 1;
-                  "
-                  transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+      <div class="container">
+        <h3>Contact</h3>
+        <p>
+          You can contact me through email
+          <a class="button" href="mailto:nupur9294@gmail.com"> Email me</a>
+        </p>
+        <div>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/nupursharma9294/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" height="72" viewBox="0 0 72 72" width="20">
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z"
+                      fill="#007EBB"
+                    />
+                    <path
+                      d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z"
+                      fill="#FFF"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/nupursharma9294" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 256 256"
+                  xml:space="preserve"
                 >
-                  <path
-                    d="M 58.938 41.512 c -1.498 0 -2.655 0.431 -3.476 1.278 c -0.827 0.845 -1.342 1.995 -1.553 3.45 h 10.04 v 0 c -0.109 -1.549 -0.626 -2.721 -1.557 -3.522 C 61.468 41.915 60.314 41.512 58.938 41.512 z"
+                  <defs></defs>
+                  <g
                     style="
                       stroke: none;
-                      stroke-width: 1;
+                      stroke-width: 0;
                       stroke-dasharray: none;
                       stroke-linecap: butt;
                       stroke-linejoin: miter;
                       stroke-miterlimit: 10;
-                      fill: rgb(0, 0, 0);
+                      fill: none;
                       fill-rule: nonzero;
                       opacity: 1;
                     "
-                    transform=" matrix(1 0 0 1 0 0) "
-                    stroke-linecap="round"
-                  />
-                  <path
-                    d="M 37.047 40.939 c 0.842 -0.513 1.262 -1.425 1.262 -2.735 c 0 -1.447 -0.556 -2.408 -1.671 -2.87 c -0.958 -0.321 -2.185 -0.487 -3.672 -0.487 h -5.79 v 6.863 h 6.583 C 35.111 41.71 36.205 41.453 37.047 40.939 z"
-                    style="
-                      stroke: none;
-                      stroke-width: 1;
-                      stroke-dasharray: none;
-                      stroke-linecap: butt;
-                      stroke-linejoin: miter;
-                      stroke-miterlimit: 10;
-                      fill: rgb(0, 0, 0);
-                      fill-rule: nonzero;
-                      opacity: 1;
-                    "
-                    transform=" matrix(1 0 0 1 0 0) "
-                    stroke-linecap="round"
-                  />
-                  <path
-                    d="M 36.964 47.388 c -0.737 -0.341 -1.777 -0.515 -3.111 -0.527 h -6.678 v 8.291 h 6.574 c 1.351 0 2.396 -0.177 3.151 -0.546 c 1.361 -0.678 2.043 -1.969 2.043 -3.885 C 38.943 49.105 38.282 47.988 36.964 47.388 z"
-                    style="
-                      stroke: none;
-                      stroke-width: 1;
-                      stroke-dasharray: none;
-                      stroke-linecap: butt;
-                      stroke-linejoin: miter;
-                      stroke-miterlimit: 10;
-                      fill: rgb(0, 0, 0);
-                      fill-rule: nonzero;
-                      opacity: 1;
-                    "
-                    transform=" matrix(1 0 0 1 0 0) "
-                    stroke-linecap="round"
-                  />
-                  <path
-                    d="M 45 0 C 20.147 0 0 20.147 0 45 c 0 24.853 20.147 45 45 45 c 24.853 0 45 -20.147 45 -45 C 90 20.147 69.853 0 45 0 z M 52.625 30.735 h 12.529 v 3.112 h -0.001 H 52.625 V 30.735 z M 44.115 56.129 c -0.589 0.968 -1.321 1.785 -2.201 2.444 c -0.99 0.761 -2.163 1.283 -3.511 1.562 c -1.352 0.279 -2.816 0.42 -4.393 0.42 H 20 V 29.445 h 15.025 c 3.787 0.062 6.472 1.159 8.058 3.314 c 0.951 1.322 1.423 2.907 1.423 4.751 c 0 1.902 -0.477 3.424 -1.438 4.58 c -0.534 0.648 -1.324 1.238 -2.369 1.77 c 1.583 0.579 2.784 1.492 3.587 2.748 c 0.808 1.252 1.212 2.772 1.212 4.557 C 45.497 53.011 45.042 54.667 44.115 56.129 z M 69.994 50.084 H 53.769 c 0.089 2.24 0.863 3.806 2.329 4.702 c 0.884 0.562 1.956 0.837 3.212 0.837 c 1.324 0 2.403 -0.335 3.233 -1.023 c 0.453 -0.365 0.852 -0.879 1.197 -1.529 h 5.947 c -0.156 1.323 -0.872 2.664 -2.159 4.028 c -1.994 2.167 -4.79 3.253 -8.381 3.253 c -2.967 0 -5.581 -0.916 -7.85 -2.742 c -2.262 -1.832 -3.398 -4.804 -3.398 -8.927 c 0 -3.866 1.02 -6.825 3.066 -8.885 c 2.054 -2.064 4.705 -3.091 7.972 -3.091 c 1.937 0 3.683 0.346 5.24 1.042 c 1.553 0.697 2.836 1.793 3.847 3.3 c 0.915 1.327 1.503 2.862 1.777 4.609 C 69.953 46.677 70.022 48.154 69.994 50.084 z"
-                    style="
-                      stroke: none;
-                      stroke-width: 1;
-                      stroke-dasharray: none;
-                      stroke-linecap: butt;
-                      stroke-linejoin: miter;
-                      stroke-miterlimit: 10;
-                      fill: rgb(0, 0, 0);
-                      fill-rule: nonzero;
-                      opacity: 1;
-                    "
-                    transform=" matrix(1 0 0 1 0 0) "
-                    stroke-linecap="round"
-                  />
-                </g>
-              </svg>
-            </a>
-          </li>
-        </ul>
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+                  >
+                    <path
+                      d="M 58.938 41.512 c -1.498 0 -2.655 0.431 -3.476 1.278 c -0.827 0.845 -1.342 1.995 -1.553 3.45 h 10.04 v 0 c -0.109 -1.549 -0.626 -2.721 -1.557 -3.522 C 61.468 41.915 60.314 41.512 58.938 41.512 z"
+                      style="
+                        stroke: none;
+                        stroke-width: 1;
+                        stroke-dasharray: none;
+                        stroke-linecap: butt;
+                        stroke-linejoin: miter;
+                        stroke-miterlimit: 10;
+                        fill: rgb(0, 0, 0);
+                        fill-rule: nonzero;
+                        opacity: 1;
+                      "
+                      transform=" matrix(1 0 0 1 0 0) "
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M 37.047 40.939 c 0.842 -0.513 1.262 -1.425 1.262 -2.735 c 0 -1.447 -0.556 -2.408 -1.671 -2.87 c -0.958 -0.321 -2.185 -0.487 -3.672 -0.487 h -5.79 v 6.863 h 6.583 C 35.111 41.71 36.205 41.453 37.047 40.939 z"
+                      style="
+                        stroke: none;
+                        stroke-width: 1;
+                        stroke-dasharray: none;
+                        stroke-linecap: butt;
+                        stroke-linejoin: miter;
+                        stroke-miterlimit: 10;
+                        fill: rgb(0, 0, 0);
+                        fill-rule: nonzero;
+                        opacity: 1;
+                      "
+                      transform=" matrix(1 0 0 1 0 0) "
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M 36.964 47.388 c -0.737 -0.341 -1.777 -0.515 -3.111 -0.527 h -6.678 v 8.291 h 6.574 c 1.351 0 2.396 -0.177 3.151 -0.546 c 1.361 -0.678 2.043 -1.969 2.043 -3.885 C 38.943 49.105 38.282 47.988 36.964 47.388 z"
+                      style="
+                        stroke: none;
+                        stroke-width: 1;
+                        stroke-dasharray: none;
+                        stroke-linecap: butt;
+                        stroke-linejoin: miter;
+                        stroke-miterlimit: 10;
+                        fill: rgb(0, 0, 0);
+                        fill-rule: nonzero;
+                        opacity: 1;
+                      "
+                      transform=" matrix(1 0 0 1 0 0) "
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M 45 0 C 20.147 0 0 20.147 0 45 c 0 24.853 20.147 45 45 45 c 24.853 0 45 -20.147 45 -45 C 90 20.147 69.853 0 45 0 z M 52.625 30.735 h 12.529 v 3.112 h -0.001 H 52.625 V 30.735 z M 44.115 56.129 c -0.589 0.968 -1.321 1.785 -2.201 2.444 c -0.99 0.761 -2.163 1.283 -3.511 1.562 c -1.352 0.279 -2.816 0.42 -4.393 0.42 H 20 V 29.445 h 15.025 c 3.787 0.062 6.472 1.159 8.058 3.314 c 0.951 1.322 1.423 2.907 1.423 4.751 c 0 1.902 -0.477 3.424 -1.438 4.58 c -0.534 0.648 -1.324 1.238 -2.369 1.77 c 1.583 0.579 2.784 1.492 3.587 2.748 c 0.808 1.252 1.212 2.772 1.212 4.557 C 45.497 53.011 45.042 54.667 44.115 56.129 z M 69.994 50.084 H 53.769 c 0.089 2.24 0.863 3.806 2.329 4.702 c 0.884 0.562 1.956 0.837 3.212 0.837 c 1.324 0 2.403 -0.335 3.233 -1.023 c 0.453 -0.365 0.852 -0.879 1.197 -1.529 h 5.947 c -0.156 1.323 -0.872 2.664 -2.159 4.028 c -1.994 2.167 -4.79 3.253 -8.381 3.253 c -2.967 0 -5.581 -0.916 -7.85 -2.742 c -2.262 -1.832 -3.398 -4.804 -3.398 -8.927 c 0 -3.866 1.02 -6.825 3.066 -8.885 c 2.054 -2.064 4.705 -3.091 7.972 -3.091 c 1.937 0 3.683 0.346 5.24 1.042 c 1.553 0.697 2.836 1.793 3.847 3.3 c 0.915 1.327 1.503 2.862 1.777 4.609 C 69.953 46.677 70.022 48.154 69.994 50.084 z"
+                      style="
+                        stroke: none;
+                        stroke-width: 1;
+                        stroke-dasharray: none;
+                        stroke-linecap: butt;
+                        stroke-linejoin: miter;
+                        stroke-miterlimit: 10;
+                        fill: rgb(0, 0, 0);
+                        fill-rule: nonzero;
+                        opacity: 1;
+                      "
+                      transform=" matrix(1 0 0 1 0 0) "
+                      stroke-linecap="round"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>Copyright Nupur 2020</p>
       </div>
-      <p>Copyright Nupur 2020</p>
     </footer>
   </body>
 </html>

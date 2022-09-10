@@ -5,7 +5,29 @@ body {
   /* font-weight: 500; */
   line-height: 1.1;
   background-color: #c1fbff;
+  margin: 0;
 }
+
+header {
+  background-color: #fff;
+  padding: 10px 5px 15px 5px;
+  border-bottom: 3px solid gray;
+}
+
+header nav {
+  float: right;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px;
+}
+
+header ul li:hover {
+  background-color: #03919b;
+}
+
 a {
   color: #121212;
   text-decoration: none;
@@ -23,14 +45,9 @@ a:hover {
   color: #fff;
   font-weight: 500;
 }
-header {
-  background-color: #ff44c4;
-  /* padding: 10px 5px 15px 5px; */
-  /* margin: 10px; */
-  /* border-bottom: 3px solid #4a4a4a; */
-}
 .container {
-  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 img {
