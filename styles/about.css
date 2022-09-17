@@ -7,14 +7,20 @@ header {
 
 .skill-n-tools {
   display: flex;
-  justify-content: space-between;
   gap: 16px;
+}
+
+.skill-n-tools .column-1{
+  flex: 60%;
+}
+
+.skill-n-tools .column-2{
+  flex: 40%;
 }
 
 @media only screen and (max-width: 576px) {
   .skill-n-tools {
-    display: flex;
     flex-direction: column;
-    gap: 16px;
+    font-size: 20px;
   }
 }
