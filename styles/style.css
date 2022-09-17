@@ -14,8 +14,31 @@ header {
   border-bottom: 3px solid gray;
 }
 
-header nav {
-  float: right;
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+header ul {
+  padding: 0;
 }
 
 header ul li {
@@ -72,6 +95,17 @@ h4 {
 
 h5 {
   font-size: 14px;
+}
+
+footer .row {
+  display: unset;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 footer .copyright {

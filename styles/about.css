@@ -4,3 +4,17 @@ body {
 header {
   padding: 10px 5px 15px 5px;
 }
+
+.skill-n-tools {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media only screen and (max-width: 576px) {
+  .skill-n-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
