@@ -1,8 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #121212;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  /* font-weight: 500; */
   line-height: 1.1;
   background-color: #c1fbff;
   margin: 0;
