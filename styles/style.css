@@ -53,6 +53,41 @@ header ul li {
   padding: 8px;
 }
 
+header ul li:last-child {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .navtoggle {
+    position: relative;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navtoggle {
+    align-items: start;
+  }
+  header ul li:last-child {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+  .navtoggle.responsive li:not(:last-child) {
+    display: inline-block;
+  }
+  header ul li:hover {
+    background-color: white !important;
+  }
+  header ul li img {
+    width: auto;
+  }
+}
+
 header ul li:hover {
   background-color: #03919b;
 }
