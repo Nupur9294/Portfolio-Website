@@ -123,13 +123,13 @@ a:hover {
 
 img {
   width: 100%;
-  transition-duration: 0.5s;
-  transition-property: scale;
+  /* transition-duration: 0.5s;
+  transition-property: scale; */
 }
-
+/* 
 img:hover {
   scale: 1.05;
-}
+} */
 
 h1 {
   font-size: 24px;
